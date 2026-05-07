@@ -127,12 +127,12 @@ A lightweight recommendation system using:
 ```bash
 AI-Travel-Companion/
 │
-├── client/                 # React Frontend
+├── frontend/                 # React Frontend
 │   ├── public/
 │   ├── src/
 │   └── package.json
 │
-├── server/                 # Node.js Backend
+├── backend/                 # Node.js Backend
 │   ├── controllers/
 │   ├── models/
 │   ├── routes/
@@ -140,7 +140,7 @@ AI-Travel-Companion/
 │   ├── services/
 │   └── package.json
 │
-├── .env
+├── server.js
 ├── README.md
 └── package.json
 ```
@@ -152,7 +152,7 @@ AI-Travel-Companion/
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/AI-Travel-Companion.git
+git clone https://github.com/adityar9764/AI-Travel-Companion.git
 
 cd AI-Travel-Companion
 ```
@@ -164,14 +164,14 @@ cd AI-Travel-Companion
 ### Frontend
 
 ```bash
-cd client
+cd frontend
 npm install
 ```
 
 ### Backend
 
 ```bash
-cd ../server
+cd ../backend
 npm install
 ```
 
@@ -179,7 +179,7 @@ npm install
 
 # 🔑 Environment Variables
 
-Create a `.env` file inside the `server` directory.
+Create a `.env` file inside the `backend` directory.
 
 ```env
 PORT=5000
@@ -201,7 +201,7 @@ RAZORPAY_KEY_SECRET=your_razorpay_secret
 ## Start Backend
 
 ```bash
-cd server
+cd backend
 npm run dev
 ```
 
@@ -210,7 +210,7 @@ npm run dev
 ## Start Frontend
 
 ```bash
-cd client
+cd frontend
 npm start
 ```
 
@@ -282,19 +282,6 @@ Plan a 4-day budget-friendly Goa trip for friends with nightlife, beaches, and l
 
 ---
 
-# 📸 Screenshots
-
-Add application screenshots here.
-
-### Suggested Screenshots
-- Homepage
-- AI Planner
-- Destination Recommendations
-- Razorpay Payment Page
-- User Dashboard
-
----
-
 # 🚀 Deployment
 
 ## Frontend
@@ -323,17 +310,11 @@ Contributions are welcome.
 
 ---
 
-# 📄 License
-
-This project is licensed under the MIT License.
-
----
-
 # 👨‍💻 Author
 
-Developed by **Your Name**
+Developed by **Aditya Raj and Team**
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/adityar9764
 
 ---
 
@@ -345,13 +326,3 @@ If you found this project useful:
 - Share feedback
 
 ---
-
-# 📌 Project Summary
-
-AI-Powered Smart Travel Companion combines:
-- Artificial Intelligence
-- Personalized recommendations
-- Secure online booking
-- Modern MERN architecture
-
-to deliver a smarter and more personalized travel planning experience.
