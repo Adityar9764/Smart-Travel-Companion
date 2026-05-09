@@ -152,9 +152,9 @@ AI-Travel-Companion/
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/adityar9764/AI-Travel-Companion.git
+git clone https://github.com/adityar9764/Smart-Travel-Companion.git
 
-cd AI-Travel-Companion
+cd Smart-Travel-Companion
 ```
 
 ---
@@ -188,7 +188,7 @@ MONGODB_URI=your_mongodb_connection_string
 
 JWT_SECRET=your_jwt_secret
 
-OPENAI_API_KEY=your_openai_api_key
+OPENAI_API_KEY/GEMINI_API_KEY=your_api_key
 
 RAZORPAY_KEY_ID=your_razorpay_key_id
 RAZORPAY_KEY_SECRET=your_razorpay_secret
